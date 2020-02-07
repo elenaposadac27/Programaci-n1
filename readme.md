@@ -7,4 +7,4 @@ Este es un respositorio del curso de introducción a programación haciendo uso 
 
 Autor: Elena Posada Cataño
 
-Ing. Biomédica - Semestre 3
+Ing. Biomédica - Semestre #3
