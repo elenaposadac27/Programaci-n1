@@ -1,5 +1,6 @@
 
 #---------------Mensajes----------------
+#cuando es informacion en letras se utilizan comillas("")
 #int es cuando la respuesta es numero ENTEROS
 #float es cuando la respuesta es numeros DECIMALES
 PREGUNTA_NOMBRE = "ingrese su nombre \n "
