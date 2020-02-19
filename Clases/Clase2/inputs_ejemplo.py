@@ -1,8 +1,11 @@
 
-#---------------Mensajes----------------
+#---------------Anotaciones----------------
 #cuando es informacion en letras se utilizan comillas("")
 #int es cuando la respuesta es numero ENTEROS
 #float es cuando la respuesta es numeros DECIMALES
+#------------------------------------------
+
+#---------------Mensajes----------------
 PREGUNTA_NOMBRE = "ingrese su nombre \n "
 MENSAJE_BIENVENIDO_A = "Bienvenido"
 MENSAJE_BIENVENIDO_B = "a este programa"
