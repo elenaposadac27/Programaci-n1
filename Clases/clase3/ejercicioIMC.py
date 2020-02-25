@@ -1,13 +1,14 @@
 #---------MENSAJES--------
 PREGUNTA_NOMBRE = "ingrese su nombre \n"
 PREGUNTA_ESTATURA = "ingrese porfavor su estatura \n"
-PREGUNTA_PESO = "ingrese porrfavor su peso \n"
+PREGUNTA_PESO = "ingrese porfavor su peso \n"
 MENSAJE_BIENVENIDA_1 = "Bienvenido(a)"
 MENSAJE_BIENVENIDA_2 = "iniciemos con la medicion de su IMC"
 MENSAJE_NORMAL = "Muy bien, su condición es óptima"
 MENSAJE_SOBREPESO = "Usted se encuentra en condición de sobrepeso, debe visitar a su médico"
 MENSAJE_OBESIDAD = "Usted presenta un caso de obesidad, porfavor visite a su médico"
 MENSAJE_BAJO_PESO = "Usted se encuentra en un rango de bajo peso"
+MENSAJE_OBESIDAD_MORBIDA = "Usted presenta un caso de obesidad, porfavor visite a su médico"
 #-------------------------
 #--------ENTRADAS---------
 _nombreUsuario = " "
@@ -25,5 +26,7 @@ elif ((_pesoUsuario / (_estaturaUsuario ** 2)) > 18.5  and (_pesoUsuario / (_est
     print(MENSAJE_NORMAL) 
 elif ((_pesoUsuario / (_estaturaUsuario ** 2)) >= 25 and (_pesoUsuario / (_estaturaUsuario ** 2)) <= 29) :
     print(MENSAJE_SOBREPESO) 
-else:
+elif ((_pesoUsuario / (_estaturaUsuario ** 2)) > 29 and (_pesoUsuario / (_estaturaUsuario ** 2)) <= 40) :
     print(MENSAJE_OBESIDAD)
+else:
+    print(MENSAJE_OBESIDAD_MORBIDA)
