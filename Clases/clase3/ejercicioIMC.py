@@ -7,7 +7,7 @@ MENSAJE_BIENVENIDA_2 = "iniciemos con la medicion de su IMC"
 MENSAJE_NORMAL = "Muy bien, su condición es óptima"
 MENSAJE_SOBREPESO = "Usted se encuentra en condición de sobrepeso, debe visitar a su médico"
 MENSAJE_OBESIDAD = "Usted presenta un caso de obesidad, porfavor visite a su médico"
-MENSAJE_BAJO_PESO = "Usted se encuentra en un rango bajo peso"
+MENSAJE_BAJO_PESO = "Usted se encuentra en un rango de bajo peso"
 #-------------------------
 #--------ENTRADAS---------
 _nombreUsuario = " "
