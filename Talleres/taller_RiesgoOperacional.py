@@ -8,8 +8,8 @@ MENSAJE_BAJO = "Su riesgo ocupacional es bajo"
 #------ENTRADAS-------
 _numeroPacientes = 0
 _numeroPacientesUCI = 0
-#----------------------
-#-------CODIGO---------
+#---------------------
+#-------CODIGO--------
 _numeroPacientes = int (input(PREGUNTA_PACIENTES))
 if (_numeroPacientes > 0 and _numeroPacientes <= 1000) :
     print (MENSAJE_BAJO)
