@@ -1,9 +1,9 @@
 #------MENSAJE--------
 PREGUNTA_PACIENTES = "Ingrese porfavor el número de pacientes \n"
 PREGUNTA_UCI = "Ingrese porfavor el número de pacientes en UCI \n"
-MENSAJE_ALTO = "Su riesgo ocupacional es alto"
-MENSAJE_MEDIO = "Su riesgo ocupacional es medio"
-MENSAJE_BAJO = "Su riesgo ocupacional es bajo"
+MENSAJE_ALTO = "Su riesgo operacional es alto el dia de hoy"
+MENSAJE_MEDIO = "Su riesgo operacional es medio el dia de hoy"
+MENSAJE_BAJO = "Su riesgo operacional es bajo el dia de hoy"
 #---------------------
 #------ENTRADAS-------
 _numeroPacientes = 0
