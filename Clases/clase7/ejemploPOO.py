@@ -1,6 +1,7 @@
 #PROGRAMACION ORIENTADA A OBJETOS (POO)
 # Las clases son como moldes, y siempre deben ir nombradas con mayuscula inicial
 # self. se utiliza para designar todas las caracteristicas o atributos del molde
+# __init__ se utiliza para crear objetos de  ese molde
 
 class Humano():
     def __init__(self, nombre):
