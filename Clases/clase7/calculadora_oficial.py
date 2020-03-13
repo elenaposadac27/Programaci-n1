@@ -17,5 +17,3 @@ def dividir(x,y) :
     else: 
         division = x/y
     return division
-
-print(dividir(10,2))
