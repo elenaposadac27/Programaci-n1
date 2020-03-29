@@ -12,7 +12,7 @@ print(lista_adicionar)
 
 
 #PARA AGREGAR UN ELEMENTO EN UN PUNTO ESPECIFICO DE LA LISTA
-#     lista.inser(posicion,elemento)
+#     lista.insert(posicion,elemento)
 
 #Ejemplo:
 lista = [1,5,2,7,3,4,8]
