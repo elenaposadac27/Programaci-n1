@@ -55,6 +55,7 @@ cuidador6 = Jefe("Pedro", 9314)
 _cantidadSaltos = 12
 canguro5.saltar(_cantidadSaltos)
 print("El canguro con código de identificacion", canguro5.id ,"realizo",_cantidadSaltos, "saltos")
+print("Este canguro es", canguro5.genero, "y tiene", canguro5.edad, "años.")
 
 bienvenida = cuidador6.dar_mensaje_bienvenida()
 print("Mi nombre es", cuidador6.nombre, "y soy el jefe de cuidadores de canguros")
