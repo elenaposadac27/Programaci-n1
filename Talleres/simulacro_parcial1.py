@@ -49,20 +49,20 @@ cuidador2 = Cuidador("Alicia", 9316)
 cuidador3 = Cuidador("Sara", 9317)
 cuidador4 = Cuidador("Felipe", 9318)
 cuidador5 = Cuidador("Juliana", 9319)
-ciudador6 = Jefe("Pedro", 9314)
+cuidador6 = Jefe("Pedro", 9314)
 
 
 _cantidadSaltos = 12
 canguro5.saltar(_cantidadSaltos)
 print("El canguro con código de identificacion", canguro5.id ,"realizo",_cantidadSaltos, "saltos")
 
-bienvenida = ciudador6.dar_mensaje_bienvenida()
-print("Mi nombre es", ciudador6.nombre, "y soy el jefe de cuidadores de canguros")
+bienvenida = cuidador6.dar_mensaje_bienvenida()
+print("Mi nombre es", cuidador6.nombre, "y soy el jefe de cuidadores de canguros")
 print(bienvenida)
-contratacion = ciudador6.contratar()
+contratacion = cuidador6.contratar()
 print(contratacion)
 
-print("Hola soy",cuidador2.nombre, ", nueva cuidadora de canguros del zoológico")
+print("Hola soy",cuidador2.nombre,  ", nueva cuidadora de canguros del zoológico con codigo de identificacion", cuidador2.id)
 alimentar = cuidador2.alimentar_canguros()
 print(alimentar)
 
