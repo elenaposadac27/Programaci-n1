@@ -39,9 +39,9 @@ class Profesor():
 
 class Director(Profesor):
     def contratar(self,nombre,edad,nivel):
-        print("Se necesita realizar la contratacion de un nuevo profesor para los estudiantes")
+        print("Es necesario realizar la contratacion de un nuevo profesor para la universidad")
         new_profesor = Profesor(nombre,edad,nivel)
-        print("He contratado al profesor {}. Tiene {}años y cuenta con {}".format(new_profesor.nombre,edad,nivel))
+        print("He contratado al profesor(a) {}. Tiene {}años y cuenta con {}".format(new_profesor.nombre,edad,nivel))
         return new_profesor
 
 estudiante1 = Estudiante("Sofia",18,"femenino","Pinares")
