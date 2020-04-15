@@ -66,4 +66,3 @@ print(contratacion)
 print("Hola soy",cuidador2.nombre,  ", nueva cuidadora de canguros del zoológico con codigo de identificacion", cuidador2.id)
 alimentar = cuidador2.alimentar_canguros()
 print(alimentar)
-
