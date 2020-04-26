@@ -7,7 +7,7 @@ import pandas as pd
 #.to_dict transforma mis datos en un diccionario
 
 #Asi: 
-# diccionario =p.read_csv("estudiantes.csv",encoding='UTF-8', header = 0,delimiter=';').to_dict()
+#   diccionario =p.read_csv("estudiantes.csv",encoding='UTF-8', header = 0,delimiter=';').to_dict()
 #   print(diccionario)
 
 #para imprimir como los titulitos del cuador de excel:
