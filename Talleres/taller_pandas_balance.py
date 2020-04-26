@@ -1,5 +1,4 @@
 import pandas as pd
-
 diccionario =pd.read_csv("balance.csv",encoding='UTF-8', header = 0,delimiter=';').to_dict()
 print(diccionario)
 
