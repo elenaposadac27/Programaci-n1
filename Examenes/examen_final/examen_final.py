@@ -43,7 +43,6 @@ _estaturaUsuario = 0
 _pesoUsuario = 0
 _edadUsuario = 0
 
-
 try:
     _nombreUsuario = input("Ingrese su nombre \n")
 except ValueError:
@@ -84,7 +83,7 @@ plt.show()
 # El APRENDIZAJE SUPERVISADO es aquel en el que se brida en el codigo las condiciones, instrucciones o los patrones que se
 #deben seguir para llegar a determinadas conclusiones.
 #
-#  Por ejemplo: la clasificacion de un grupo de animales segun determinadas caracteristicas que ya fueron brindadas al algoritmos
+#   Por ejemplo: la clasificacion de un grupo de animales segun determinadas caracteristicas que ya fueron brindadas al algoritmos
 
 #El APRENDIZAJE NO SUPERVISADO hace referencia a aquel en el que no se le brinda instrucciones especificas que guien
 #de alguna manera las conclusiones a las que se llega.
